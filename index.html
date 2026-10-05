@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS4 GoldHEN Host by MADA</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-color: #0d1117;
+            color: #c9d1d9;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        .container {
+            background-color: rgba(22, 27, 34, 0.9);
+            border: 1px solid #00439c;
+            border-radius: 16px;
+            padding: 30px;
+            max-width: 650px;
+            width: 100%;
+            text-align: center;
+            box-shadow: 0 8px 30px rgba(0, 112, 209, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        .logo {
+            width: 100%;
+            max-height: 250px;
+            object-fit: cover;
+            border-radius: 12px;
+            border: 2px solid #0070d1;
+            margin-bottom: 20px;
+        }
+        h1 {
+            color: #0070d1;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        p.subtitle {
+            color: #8b949e;
+            font-size: 1.1rem;
+            margin-bottom: 25px;
+        }
+        .btn-goldhen {
+            background: linear-gradient(135deg, #0070d1, #00439c);
+            color: #ffffff;
+            font-size: 1.2rem;
+            font-weight: bold;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            width: 100%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0, 112, 209, 0.4);
+        }
+        .btn-goldhen:hover {
+            background: linear-gradient(135deg, #0084f8, #0056c6);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 112, 209, 0.6);
+        }
+        .btn-goldhen:active {
+            transform: translateY(0);
+        }
+        .credits {
+            margin-top: 20px;
+            padding-top: 15px;
+            border-top: 1px solid #30363d;
+            font-size: 0.9rem;
+            color: #8b949e;
+        }
+        .credits a {
+            color: #58a6ff;
+            text-decoration: none;
+        }
+        .credits a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="mada_banner.png" alt="MADA PlayStation Banner" class="logo">
+
+        <h1>PS4 [5.05] 7.00 - 13.52 FW GoldHEN Host</h1>
+        <p class="subtitle">By <strong>MADA</strong> - Play • Fix • Enjoy</p>
+
+        <button class="btn-goldhen" onclick="runPayload()">تشغيل GoldHEN</button>
+
+        <div class="credits">
+            Special Thanks to: 
+            <a href="#">@_AlAzif</a> | 
+            <a href="#">@ChendoChap</a> | 
+            <a href="#">@SiSTR0</a>
+        </div>
+    </div>
+
+    <script>
+        function runPayload() {
+            alert("جاري تشغيل GoldHEN الخاص بـ MADA Host...");
+        }
+    </script>
+
+</body>
+</html>
